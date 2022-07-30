@@ -1,4 +1,4 @@
-.link-name {
+.header__link {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 26px;
@@ -6,10 +6,10 @@
     color: $colorSecondaryText;
     margin-right: 93px;
 }
-.span-name {
+.header__name {
     color: $colorAkcent;
 }
-.nav-link {
+.header__linkPages {
     position: relative;
     font-weight: 500;
     font-size: $primaryFontSize;
@@ -22,21 +22,21 @@
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.nav-link:hover,
-.nav-link:focus {
+&:hover,
+&:focus {
     color: $colorAkcent;
     outline: none;
 }
-.heder-container,
-.nav,
-.nav-list {
+.header__container,
+.header__nav,
+.header__list {
     display: flex;
     align-items: center;
 }
-.nav {
+.header__nav {
     margin-right: auto;
 }
-.contact {
+.header__contact {
     font-family: inherit;
     font-weight: 500;
     display: flex;
@@ -51,21 +51,21 @@
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.contact:hover,
-.contact:focus {
+&:hover,
+&:focus {
     color: $colorAkcent;
     outline: none;
 }
 .header {
     border-bottom: 1px solid $colorBorder;
 }
-.nav-item:not(:last-child) {
+.header__item:not(:last-child) {
     margin-right: 50px;
 }
-.current {
+.header--current {
     color: $colorAkcent;
 }
-.current::after {
+.header--current::after {
     position: absolute;
     bottom: 0;
     content: "";

@@ -71,7 +71,7 @@ body {
   text-decoration: none;
 }
 
-.link-name {
+.header__link {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -80,11 +80,11 @@ body {
   margin-right: 93px;
 }
 
-.span-name {
+.header__name {
   color: #2196f3;
 }
 
-.nav-link {
+.header__linkPages {
   position: relative;
   font-weight: 500;
   font-size: 14px;
@@ -101,15 +101,15 @@ body {
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.nav-link:hover,
-.nav-link:focus {
+.header__linkPages:hover,
+.header__linkPages:focus {
   color: #2196f3;
   outline: none;
 }
 
-.heder-container,
-.nav,
-.nav-list {
+.header__container,
+.header__nav,
+.header__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -118,7 +118,7 @@ body {
           align-items: center;
 }
 
-.nav {
+.header__nav {
   margin-right: auto;
 }
 
@@ -155,15 +155,15 @@ body {
   border-bottom: 1px solid #ececec;
 }
 
-.nav-item:not(:last-child) {
+.header__item:not(:last-child) {
   margin-right: 50px;
 }
 
-.current {
+.header--current {
   color: #2196f3;
 }
 
-.current::after {
+.header--current::after {
   position: absolute;
   bottom: 0;
   content: "";
