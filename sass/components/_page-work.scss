@@ -1,4 +1,4 @@
-.work-title{
+.work__title{
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
@@ -6,11 +6,15 @@
     margin-bottom: 50px;
     text-align: center;
 }
-.work-item {
+.work__item {
     position: relative;
     z-index: -1;
+
+&:not(:last-child) {
+        margin-right: 30px;
+    }
 }
-.work-text {
+.work__text {
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -25,12 +29,9 @@
     background: rgba(47, 48, 58, 0.8);
     height: 70px;
 }
-.work-list {
+.work__list {
     display: flex;
 }
 .work {
     padding-top: 0;
-}
-.work-item:not(:last-child) {
-    margin-right: 30px;
 }

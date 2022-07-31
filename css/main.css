@@ -276,7 +276,7 @@ body {
      object-fit: cover;
 }
 
-.work-title {
+.work__title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -285,12 +285,15 @@ body {
   text-align: center;
 }
 
-.work-item {
+.work__item {
   position: relative;
   z-index: -1;
 }
+.work__item:not(:last-child) {
+  margin-right: 30px;
+}
 
-.work-text {
+.work__text {
   position: absolute;
   bottom: 0;
   width: 100%;
@@ -306,7 +309,7 @@ body {
   height: 70px;
 }
 
-.work-list {
+.work__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -314,10 +317,6 @@ body {
 
 .work {
   padding-top: 0;
-}
-
-.work-item:not(:last-child) {
-  margin-right: 30px;
 }
 
 .team {
