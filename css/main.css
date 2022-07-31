@@ -174,7 +174,7 @@ body {
   margin-right: 10px;
 }
 
-.herro-content {
+.herro__content {
   background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/img-hero.jpg);
   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/img-hero.jpg);
   background-color: #c4c4c4;
@@ -187,7 +187,7 @@ body {
   margin: 0 auto;
 }
 
-.herro-title {
+.herro__title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -200,7 +200,7 @@ body {
   width: 696px;
 }
 
-.herro-bth {
+.herro__bth {
   display: block;
   font-family: inherit;
   font-weight: 700;
@@ -224,9 +224,7 @@ body {
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.herro-bth:hover,
-.herro-bth:focus {
+.herro__bth:hover, .herro__bth:focus {
   background-color: #188ce8;
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
