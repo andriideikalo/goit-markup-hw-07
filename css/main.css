@@ -495,14 +495,14 @@ body {
           box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
   outline: none;
 }
+.project__link:hover .project__tumb {
+  -webkit-transform: translatey(0%);
+          transform: translatey(0%);
+}
 
 .project__tumb--hiden {
   position: relative;
   overflow: hidden;
-}
-.project__tumb--hiden:hover .project__tumb {
-  -webkit-transform: translatey(0%);
-          transform: translatey(0%);
 }
 
 .project__tumb {
