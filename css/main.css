@@ -100,9 +100,7 @@ body {
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.header__linkPages:hover,
-.header__linkPages:focus {
+.header__linkPages:hover, .header__linkPages:focus {
   color: #2196f3;
   outline: none;
 }
@@ -144,9 +142,7 @@ body {
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.header__contact:hover,
-.header__contact:focus {
+.header__contact:hover, .header__contact:focus {
   color: #2196f3;
   outline: none;
 }
@@ -162,7 +158,6 @@ body {
 .header--current {
   color: #2196f3;
 }
-
 .header--current::after {
   position: absolute;
   bottom: 0;
