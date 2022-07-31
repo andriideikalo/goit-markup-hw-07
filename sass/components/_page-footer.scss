@@ -3,7 +3,7 @@
     background-color: $secondaryBackgraund;
     padding: 60px 0px;
 }
-.footer-linkname {
+.footer__linkName {
     display: block;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -14,54 +14,56 @@
     text-decoration: none;
     margin-top: -12px;
 }
-.contact-map {
+.footer__logo {
+    color: $colorAkcent;
+}
+.footer__map {
     line-height: 1.71;
     color: $primaryColor;
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.contact-map:hover,
-.contact-map:focus {
+
+&:hover, &:focus {
     color: $colorAkcent;
     outline: none;
 }
-.address {
+}
+.footer__address {
     margin-top: 20px;
 }
-.address-item {
+.footer__item {
     font-weight: 400;
     line-height: 1.71;
     color: rgba(255, 255, 255, 0.6);
-}
-.address-item {
     margin-bottom: 9px;
-}
-.address-item:last-child {
+
+&:last-child {
     margin-bottom: 0;
 }
-.contact-footer {
+}
+.footer__contact {
     font-size: $primaryFontSize;
     color: rgba(255, 255, 255, 0.6);
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.contact-footer:hover,
-.contact-footer:focus {
+
+&:hover, &:focus {
     color: $colorAkcent;
     outline: none;
 }
-.footer-title-social {
+}
+.footer__title {
     font-weight: 700;
-    font-size: 14px;
+    font-size: $primaryFontSize;
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: $primaryColor;
     margin-bottom: 20px;
 }
-.footer-link-social {
+.footer__link {
     background: $backgroundFooterIcon;
     width: 44px;
     height: 44px;
@@ -74,46 +76,36 @@
     transition-property: background-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.footer-link-social:hover,
-.footer-link-social:focus {
+
+&:hover, &:focus {
     background-color: $colorAkcent;
     outline: none;
 }
-.footer-icon {
+}
+.footer__icon {
     fill: $primaryColor;
     width: 20px;
     height: 20px;
 }
-.footer-section-social {
+.footer__social {
     margin-left: 70px;
 }
-.container-flex {
+.footer__flex {
     display: flex;
 }
-.footer-list-social {
+.footer__list {
     display: flex;
     gap: 10px;
 }
-.footer-subscription {
+.footer__subscription {
     margin-left: auto;
 }
-.subscription-title {
-    color: $primaryColor;
-    font-size: $primaryFontSize;
-    font-weight: 700;
-    line-height: 1.14;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    margin-bottom: 20px;
-}
-.subscription-contact {
+.footer__form {
     position: relative;
     display: flex;
     gap: 12px;
-
 }
-.subscription-input {
+.footer__input {
     position: relative;
     display: block;
     padding: 15px;
@@ -127,11 +119,12 @@
     font-size: 16px;
     line-height: calc(20 / 16);
     letter-spacing: 0.03em;
-}
-.subscription-input:focus-visible {
+
+&:focus-visible {
     outline: none;
 }
-.subscription-btn {
+}
+.footer__btn {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -153,13 +146,13 @@
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     cursor: pointer;
-}
-.subscription-btn:hover,
-.subscription-btn:focus {
+
+&:hover, &:focus {
     background-color: $colorBtnHover;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
-.subscription-icon {
+}
+.footer__icon--subscription {
     width: 24px;
     height: 24px;
 }
