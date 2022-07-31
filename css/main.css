@@ -122,7 +122,7 @@ body {
   margin-right: auto;
 }
 
-.contact {
+.header__contact {
   font-family: inherit;
   font-weight: 500;
   display: -webkit-box;
@@ -145,8 +145,8 @@ body {
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.contact:hover,
-.contact:focus {
+.header__contact:hover,
+.header__contact:focus {
   color: #2196f3;
   outline: none;
 }
@@ -174,7 +174,7 @@ body {
   border-radius: 2px;
 }
 
-.nav-svg {
+.header__icon {
   fill: currentColor;
   margin-right: 10px;
 }

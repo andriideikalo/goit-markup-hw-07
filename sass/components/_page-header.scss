@@ -22,8 +22,8 @@
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-&:hover,
-&:focus {
+.header__linkPages:hover,
+.header__linkPages:focus {
     color: $colorAkcent;
     outline: none;
 }
@@ -51,11 +51,12 @@
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-&:hover,
-&:focus {
+.header__contact:hover,
+.header__contact:focus {
     color: $colorAkcent;
     outline: none;
 }
+
 .header {
     border-bottom: 1px solid $colorBorder;
 }
@@ -75,7 +76,7 @@
     background-color: $colorAkcent;
     border-radius: 2px;
 }
-.nav-svg {
+.header__icon {
     fill: currentColor;
     margin-right: 10px;
 }
