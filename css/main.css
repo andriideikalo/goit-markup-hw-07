@@ -230,7 +230,7 @@ body {
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
-.advantages-title {
+.advantages__title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -239,22 +239,22 @@ body {
   margin-bottom: 10px;
 }
 
-.advantages-item:not(:last-child) {
+.advantages__item:not(:last-child) {
   margin-right: 30px;
 }
 
-.advantages-list {
+.advantages__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.advantages-content {
+.advantages__content {
   line-height: 24px;
   width: 270px;
 }
 
-.advantages-group {
+.advantages__group {
   margin-bottom: 30px;
   background: #f5f4fa;
   border-radius: 4px;
@@ -271,7 +271,7 @@ body {
           justify-content: center;
 }
 
-.advantages-icon {
+.advantages__icon {
   -o-object-fit: cover;
      object-fit: cover;
 }
