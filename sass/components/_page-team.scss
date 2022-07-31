@@ -1,7 +1,7 @@
 .team {
     background-color: $colorBackground;
 }
-.team-title {
+.team__title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
@@ -9,10 +9,10 @@
     margin-bottom: 50px;
     text-align: center;
 }
-.team-list {
+.team__list {
     display: flex;
 }
-.team-person {
+.team__person {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
@@ -20,30 +20,31 @@
     margin-bottom: 10px;
     text-align: center;
 }
-.about-team {
+.team__about {
     padding: 30px 0;
 }
-.team-positions {
+.team__positions {
     font-size: 16px;
     line-height: 1.18;
     text-align: center;
     margin-bottom: 16px;
 }
-.team-item:not(:last-child) {
-    margin-right: 30px;
-}
-.team-item {
+.team__item {
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
     background: $primaryColor;
+
+    &:not(:last-child) {
+        margin-right: 30px;
+    }
 }
-.team-link {
+.team__link {
     display: flex;
     margin: 0 auto;
     width: 206px;
     gap: 10px;
 }
-.team-social {
+.team__social {
     color: $colorIcon;
     width: 44px;
     height: 44px;
@@ -56,15 +57,15 @@
     transition-property: background-color, color, filter;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.team-social:hover,
-.team-social:focus {
+
+&:hover, &:focus {
     background-color: $colorAkcent;
     color: $primaryColor;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     outline: none;
 }
-.team-icon {
+}
+.team__icon {
     fill: currentColor;
     width: 20px;
     height: 20px;
