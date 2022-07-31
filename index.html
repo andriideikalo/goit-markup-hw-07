@@ -59,45 +59,45 @@
 					<button type="button" class="herro__bth" data-modal-open >Заказать услугу</button>
 					<div class="backdrop is-hidden" data-modal>
 						<div  class="modal" > 
-							<p class="title-modal"> Оставьте свои данные, мы вам перезвоним</p>
-							<form name="signum-form" autocomplete="on" class="form-input">
-								<div class="username">
-									<label class="name-input"> <span class="name-input-title"> Имя</span>
-										<input type="text" name="username" class="form-input-area" placeholder="введите ваше имя" required>
-										<svg width="18" height="18" class="modal-icon">
+							<p class="modal__title"> Оставьте свои данные, мы вам перезвоним</p>
+							<form name="signum-form" autocomplete="on" class="modal__form">
+								<div class="label">
+									<label class="label__content"> <span class="label__title"> Имя</span>
+										<input type="text" name="username" class="label__input" placeholder="введите ваше имя" required>
+										<svg width="18" height="18" class="label__icon">
 										<use href="./images/icons.svg#person-black"></use>
 										</svg>
 									</label>
 								</div>
-								<div class="username">
-									<label class="name-input"><span class="name-input-title">Телефон</span>
-										<input type="tel" name="tel" class="form-input-area" title="+38(000)111 11 11"  placeholder="введите номер телефона" required>
-										<svg width="18" height="18" class="modal-icon">
+								<div class="label">
+									<label class="label__content"><span class="label__title">Телефон</span>
+										<input type="tel" name="tel" class="label__input" title="+38(000)111 11 11"  placeholder="+38(000)000 00 00" required>
+										<svg width="18" height="18" class="label__icon">
 										<use href="./images/icons.svg#phone-black"></use>
 										</svg>
 									</label>
 								</div>
-								<div class="username">
-									<label class="name-input"><span class="name-input-title">E-mail</span>
-										<input type="email" name="email" class="form-input-area" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2, 4}$" placeholder="введите E-mail" required>
-										<svg width="18" height="18" class="modal-icon">
+								<div class="label">
+									<label class="label__content"><span class="label__title">E-mail</span>
+										<input type="email" name="email" class="label__input" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2, 4}$" placeholder="введите E-mail" required>
+										<svg width="18" height="18" class="label__icon">
 										<use href="./images/icons.svg#email-black"></use>
 										</svg>
 									</label>
 								</div>
-								<label class="name-input"><span class="name-input-title">Коментарий</span>
-									<textarea placeholder="Введите текст" rows="5" class="form-input-area feedback"></textarea>
+								<label class="label__content"><span class="label__title">Коментарий</span>
+									<textarea placeholder="Введите текст" rows="5" class="label__input label__feedback"></textarea>
 
 								</label>
-							<div class="modal-checkbox">
-								<input  type="checkbox" class="custom-checkbox" id="checkbox" name="checkbox" required>
-								<label for="checkbox" class="checkbox-accept"></label>
-								<p class="checkbox-accept">Соглашаюсь с рассылкой и принимаю <span class="link-dogovor">&nbsp;Условия договора</span></p>
+							<div class="modal__checkbox">
+								<input  type="checkbox" class="modal__customCheckbox" id="checkbox" name="checkbox" required>
+								<label for="checkbox" class="modal__accept modal__accept--checked"></label>
+								<p class="checkbox-accept">Соглашаюсь с рассылкой и принимаю <span class="modal__link">&nbsp;Условия договора</span></p>
 							</div>
-							<button type="submit" class="modal-send-btn">отправить</button>
+							<button type="submit" class="modal__btn">отправить</button>
 							</form>	
 							
-								<button class="close" data-modal-close ><svg width="18" height="18" class="svg-close" >
+								<button class="modal__close" data-modal-close ><svg width="18" height="18" class="modal__iconClose" >
 									<use href="./images/icons.svg#close"></use>
 								</svg></button>
 						</div>
