@@ -258,7 +258,7 @@ body {
 }
 .modal__form .label__icon {
   position: absolute;
-  top: 29px;
+  top: 32px;
   left: 11px;
   -webkit-transition-property: fill, border-color;
   transition-property: fill, border-color;
@@ -266,6 +266,10 @@ body {
           transition-duration: 250ms;
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.modal__form .label__title {
+  display: block;
+  margin-bottom: 4px;
 }
 .modal__form .label__input {
   width: 448px;
